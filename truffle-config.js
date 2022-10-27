@@ -86,7 +86,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           MNEMONIC,
-          `https://goerli.infura.io/v3/2c9295ba1d844766ad78cda98940997b`
+          `wss://goerli.infura.io/ws/v3/2c9295ba1d844766ad78cda98940997b`
         ),
       network_id: 5, // Goerli's id
       confirmations: 2, // # of confirmations to wait between deployments. (default: 0)
